@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url(./assets/Orbitron/Orbitron-VariableFont_wght.ttf);
+  }
+
+main {
+    margin-top: 5rem;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 1rem;
+    font-family: "Orbitron", sans-serif;
+    
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+.card {
+    max-width: 20rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+#pointsdiv {
+    text-align: center;
+    max-width: 35rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+#optionsdiv {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+button {
+    margin: 0.5rem;
+    width: 14rem;
+}
+
+#result-button, #quitbtn, #newgamebtn {
+    width: 5.2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: smaller;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: rgb(12, 65, 40);
+}
+
+.wrong {
+    background-color: rgb(87, 15, 22);
+}
+
+
+
+/*Tablet style*/
+@media screen and (min-width: 410px) and (max-width: 900px){
+    button {
+        width: 10rem;
+    }
+
+    .card {
+        max-width: 25rem;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    #result-button, #quitbtn, #newgamebtn {
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+
+}
+
+
+
+/*Desktop style*/
+@media screen and (min-width: 901px){
+    button {
+        width: 8rem;
+        height: 3,8rem;
+    }
+
+    .card {
+        max-width: 40rem;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    #result-button, #quitbtn, #newgamebtn {
+        font-size: medium;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
